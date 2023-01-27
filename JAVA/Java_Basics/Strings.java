@@ -1,6 +1,8 @@
 public class Strings {
     public static void main(String a[]){
         //String are immutable in nature in Java.
+        //These values are stored in Heap. And in Heap there is some table called String constant pool.which stores all strings with address.
+        
         String name = "Siva";
         //This works, but since the String is a class we can declare the string variable in another way.
         String MyName = new String("Siva S K");
