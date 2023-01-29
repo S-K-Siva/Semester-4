@@ -1,0 +1,15 @@
+In Threading concept of Java. There are many states
+
+1) new 
+    [new to Runnable] - Start()
+    [new to Dead] - Stop()
+2) Runnable 
+    [Runnable to Running] - run()
+    [Runnable to Dead] - stop()
+3) Running
+    [Running to waiting] - wait()
+    [waiting to Dead] - stop()
+4) waiting
+    [waiting to Dead] - stop()
+    [waiting to Runnable] - notify()
+5) Dead 
