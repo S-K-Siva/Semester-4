@@ -1,0 +1,13 @@
+In Java, there is a collection to store data and it's mainly used for data structure, like to implement many thinks.
+
+There are three , Collection API, Collection, Collections.
+
+Collection
+we have List, Queue, Set, MAP.
+
+List - ArrayList, LinkedList 
+Queue - DeQueue 
+Set - HashSet, LinkedHashSet, TreeSet.
+Map - HashMap/HashTable. HashTable is synchronized, when we are working with multiple threads, we can use HashTable.
+If you are working with multiple thread, but you wanna use HashMap, You can use synchronized Keywork.
+

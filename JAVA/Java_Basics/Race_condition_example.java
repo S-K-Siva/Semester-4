@@ -3,7 +3,7 @@ import java.io.IOException;
 
 class Iterator{
     int Count;
-    public void Increment(){
+    public synchronized void Increment(){
         Count++;
     }
 }
